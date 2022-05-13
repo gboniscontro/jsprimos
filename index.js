@@ -17,5 +17,5 @@ for (let i=0;i<n;i++ )
         }
     } while( x < p.length) //mientras que no se haya recorrido todo el arreglo quiere decir que se pudo dividir
     p[i]=nextPrimo;
-    console.log(`${i+1}° numero primo es ${p[i]}`);
+    document.write(`<br>${i+1}° numero primo es ${p[i]}`);
 }
